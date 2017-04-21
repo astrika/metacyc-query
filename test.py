@@ -14,9 +14,6 @@ was attrubuted to meta
 print meta
 rxn9000 = meta.rxn9000
 print meta.trp.frameid
-#a list of PFrames of reactions that contain TRP on right side
-rxns_trp_right = [meta[fid] for fid in meta.trp.appears_in_right_side_of]
-print rxns_trp_right
 reactions = meta.reactions
 print reactions
 organisms = meta.organisms

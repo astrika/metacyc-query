@@ -2,7 +2,7 @@
 The following is an example obtained from PythonCyc tutorial:
 https://github.com/latendre/PythonCyc/blob/master/doc/tutorial.md#pframes
 """
-
+#allows the remote access to pathway-tools on castalia
 import pythoncyc.config as config
 config.set_host_name('castalia.cs.fiu.edu')
 import pythoncyc
